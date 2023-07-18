@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "literature-file-renamer"
+version = "0.1.0"
+description = "Renames downloaded literature from a Zotero bibliography string"
+authors = ["Martin Ueding <mu@martin-ueding.de>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "literature_file_renamer"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+mypy = "^1.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
