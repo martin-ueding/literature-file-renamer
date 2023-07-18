@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "literature-file-renamer"
-version = "0.1.0"
+version = "0.2.0"
 description = "Renames downloaded literature from a Zotero bibliography string"
 authors = ["Martin Ueding <mu@martin-ueding.de>"]
 license = "MIT"
