@@ -40,7 +40,7 @@ def organize_path(root: pathlib.Path, path: pathlib.Path) -> None:
         first_letter = new_stem[0].upper()
         new_path = root / first_letter / f"{new_stem}{path.suffix}"
         if path != new_path:
-            print(f"Moving `{path}` to `{new_path}`.")
+            print(f"Moving {str(path)} to {str(new_path)}.")
             new_path.parent.mkdir(exist_ok=True)
             path.rename(new_path)
     else:
